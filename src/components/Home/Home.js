@@ -1,9 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import useReview from "../Hooks/useReview";
 import Review from "../Review/Review";
 
 const Home = () => {
   const [review, setReview] = useReview();
+  const navigate = useNavigate();
+  const seeReviews = () => {
+    navigate("/reviews");
+  };
   return (
     <div>
       <div className="md:flex flex-row bg-violet-300">
@@ -39,7 +44,10 @@ const Home = () => {
             <Review key={review.id} review={review}></Review>
           ))}
         </div>
-        <button className="transition shadow-inner text-lg font-medium ease-in-out rounded-full p-2 delay-200 bg-violet-400 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 w-1/4 mb-12">
+        <button
+          onClick={seeReviews}
+          className="transition shadow-inner text-lg font-medium ease-in-out rounded-full p-2 delay-200 bg-violet-400 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 w-1/4 mb-12"
+        >
           See All Review
         </button>
       </div>

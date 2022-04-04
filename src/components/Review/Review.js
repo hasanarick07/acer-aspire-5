@@ -4,7 +4,7 @@ import { StarIcon } from "@heroicons/react/solid";
 const Review = ({ review }) => {
   const { name, picture, rating, text } = review;
   return (
-    <div className="m-auto rounded-xl bg-violet-200 w-1/4  p-7">
+    <div className="m-auto rounded-xl bg-violet-200 w-72  p-7">
       <img className="w-10 mx-auto" src={picture} alt="" />
 
       <p>Name : {name}</p>
