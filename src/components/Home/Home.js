@@ -32,6 +32,7 @@ const Home = () => {
         </div>
         <div className="md:w-1/2 md:basis-1/2 sm:order-first	md:order-last">
           <img
+            className="rounded-xl	"
             src="https://m.media-amazon.com/images/I/81vNRgHlqGL._AC_SL1500_.jpg"
             alt=""
           />
