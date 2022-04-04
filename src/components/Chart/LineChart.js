@@ -13,13 +13,13 @@ const LineChartData = ({ data }) => {
   console.log(data);
   const [month, sell] = data;
   return (
-    <div className="bg-violet-100 p-1">
+    <div className="bg-violet-100 p-2">
       <h1>Month Vs Sell</h1>
       <LineChart
-        width={530}
+        width={330}
         height={250}
         data={data}
-        margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+        margin={{ top: 5, right: 0, left: 20, bottom: 5 }}
       >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />

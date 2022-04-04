@@ -9,7 +9,7 @@ const Review = ({ review }) => {
 
       <p>Name : {name}</p>
 
-      <div className="flex">
+      <div className="flex justify-center items-center">
         <p className="mr-3">Rating : {rating}</p>
         <StarIcon className="w-5 text-amber-500	"></StarIcon>
         <StarIcon className="w-5 text-amber-500	"></StarIcon>

@@ -11,13 +11,13 @@ import {
 const AreaChartData = ({ data }) => {
   const { month, investment, revenue } = data;
   return (
-    <div className="bg-violet-100 p-1">
+    <div className="bg-violet-100 p-4">
       <h1>Investment Vs Revenue</h1>
       <AreaChart
-        width={530}
+        width={330}
         height={250}
         data={data}
-        margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+        margin={{ top: 5, right: 0, left: 20, bottom: 5 }}
       >
         <defs>
           <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">

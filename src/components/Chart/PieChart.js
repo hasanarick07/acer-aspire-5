@@ -4,9 +4,13 @@ import { Pie, PieChart } from "recharts";
 const PieChartData = ({ data }) => {
   const { investment, revenue } = data;
   return (
-    <div className="bg-violet-100 p-1">
+    <div className="bg-violet-100 p-2">
       <h1>Investment Vs Revenue</h1>
-      <PieChart width={730} height={250}>
+      <PieChart
+        width={330}
+        height={250}
+        margin={{ top: 5, right: 0, left: 20, bottom: 5 }}
+      >
         <Pie
           data={data}
           dataKey="investment"

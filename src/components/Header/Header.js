@@ -11,23 +11,23 @@ const Header = () => {
           <MenuIcon></MenuIcon>
         </div>
         <div
-          className={`md:flex md:static transition duration-500 ease-in-out absolute md:justify-center ${
-            open ? "top-6" : "top-[-120px]"
-          }`}
+          className={`flex md:static transition duration-500 ease-in-out absolute md:justify-center ${
+            open ? "top-2" : "top-[-120px]"
+          } ${open ? "left-10" : "top-[-120px]"}`}
         >
-          <CustomLink className="mr-7" to="/home">
+          <CustomLink className="mr-1 md:mr-7" to="/home">
             HOME
           </CustomLink>
-          <CustomLink className="mr-7" to="/reviews">
+          <CustomLink className="mr-1 md:mr-7" to="/reviews">
             REVIEWS
           </CustomLink>
-          <CustomLink className="mr-7" to="/dashBoard">
+          <CustomLink className="mr-1 md:mr-7" to="/dashBoard">
             DASHBOARD
           </CustomLink>
-          <CustomLink className="mr-7" to="/blogs">
+          <CustomLink className="mr-1 md:mr-7" to="/blogs">
             BLOGS
           </CustomLink>
-          <CustomLink className="mr-7" to="/about">
+          <CustomLink className="mr-1 md:mr-7" to="/about">
             ABOUT
           </CustomLink>
         </div>
