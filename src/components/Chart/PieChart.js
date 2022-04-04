@@ -2,9 +2,9 @@ import React from "react";
 import { Pie, PieChart } from "recharts";
 
 const PieChartData = ({ data }) => {
-  const { month, investment, revenue } = data;
+  const { investment, revenue } = data;
   return (
-    <div className="bg-violet-100">
+    <div className="bg-violet-100 p-1">
       <h1>Investment Vs Revenue</h1>
       <PieChart width={730} height={250}>
         <Pie

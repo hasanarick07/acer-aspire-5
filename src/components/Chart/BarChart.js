@@ -12,7 +12,7 @@ import {
 const BarChartData = ({ data }) => {
   const { month, investment, revenue } = data;
   return (
-    <div className="bg-violet-100">
+    <div className="bg-violet-100 p-1">
       <h1>Investment Vs Revenue</h1>
       <BarChart width={530} height={250} data={data}>
         <CartesianGrid strokeDasharray="3 3" />

@@ -11,7 +11,7 @@ import {
 
 const LineChartData = ({ data }) => {
   console.log(data);
-  const { month, investment, sell, revenue } = data;
+  const [month, sell] = data;
   return (
     <div className="bg-violet-100 p-1">
       <h1>Month Vs Sell</h1>

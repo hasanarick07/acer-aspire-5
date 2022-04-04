@@ -30,7 +30,7 @@ const Home = () => {
             Live Demo
           </button>
         </div>
-        <div className="md:w-1/2 md:basis-1/2 sm:order-first	md:order-last">
+        <div className="md:w-1/2 md:basis-1/2 sm:order-first mt-2 mr-2	md:order-last">
           <img
             className="rounded-xl	"
             src="https://m.media-amazon.com/images/I/81vNRgHlqGL._AC_SL1500_.jpg"
@@ -40,7 +40,7 @@ const Home = () => {
       </div>
       <div>
         <h1 className="text-4xl font-bold mt-24">Customer Reviews</h1>
-        <div className="flex justify-between my-20">
+        <div className="md:flex justify-between my-20">
           {review.slice(0, 3).map(review => (
             <Review key={review.id} review={review}></Review>
           ))}
