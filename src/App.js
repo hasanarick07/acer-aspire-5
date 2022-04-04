@@ -10,7 +10,7 @@ import About from "./components/About/About";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-violet-300">
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>

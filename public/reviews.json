@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Arun",
+    "picture": "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
+    "rating": 4.5,
+    "id": 1,
+    "text": "A very reasonably priced laptop for basic computing needs. The specs that stick out to me for describing this as basic needs is 4GB of RAM, and 128GB M.2 SSD. Both are at the bare minimum in today's needs."
+  },
+  {
+    "name": "Barun",
+    "picture": "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
+    "rating": 4.5,
+    "id": 2,
+    "text": "A very reasonably priced laptop for basic computing needs. The specs that stick out to me for describing this as basic needs is 4GB of RAM, and 128GB M.2 SSD. Both are at the bare minimum in today's needs."
+  },
+  {
+    "name": "Torun",
+    "picture": "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
+    "rating": 4.5,
+    "id": 3,
+    "text": "A very reasonably priced laptop for basic computing needs. The specs that stick out to me for describing this as basic needs is 4GB of RAM, and 128GB M.2 SSD. Both are at the bare minimum in today's needs."
+  },
+  {
+    "name": "Mery",
+    "picture": "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
+    "rating": 4.5,
+    "id": 4,
+    "text": "A very reasonably priced laptop for basic computing needs. The specs that stick out to me for describing this as basic needs is 4GB of RAM, and 128GB M.2 SSD. Both are at the bare minimum in today's needs."
+  },
+  {
+    "name": "Chery",
+    "picture": "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
+    "rating": 4.5,
+    "id": 5,
+    "text": "A very reasonably priced laptop for basic computing needs. The specs that stick out to me for describing this as basic needs is 4GB of RAM, and 128GB M.2 SSD. Both are at the bare minimum in today's needs."
+  },
+  {
+    "name": "Gary",
+    "picture": "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
+    "rating": 4.5,
+    "id": 6,
+    "text": "A very reasonably priced laptop for basic computing needs. The specs that stick out to me for describing this as basic needs is 4GB of RAM, and 128GB M.2 SSD. Both are at the bare minimum in today's needs."
+  }
+]
