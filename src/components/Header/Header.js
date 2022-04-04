@@ -15,19 +15,19 @@ const Header = () => {
             open ? "top-2" : "top-[-120px]"
           } ${open ? "left-10" : "top-[-120px]"}`}
         >
-          <CustomLink className="mr-1 md:mr-7" to="/home">
+          <CustomLink className="md:mr-7 text-xs md:text-base" to="/home">
             HOME
           </CustomLink>
-          <CustomLink className="mr-1 md:mr-7" to="/reviews">
+          <CustomLink className="md:mr-7 text-xs md:text-base" to="/reviews">
             REVIEWS
           </CustomLink>
-          <CustomLink className="mr-1 md:mr-7" to="/dashBoard">
+          <CustomLink className=" md:mr-7 text-xs md:text-base" to="/dashBoard">
             DASHBOARD
           </CustomLink>
-          <CustomLink className="mr-1 md:mr-7" to="/blogs">
+          <CustomLink className="md:mr-7 text-xs md:text-base" to="/blogs">
             BLOGS
           </CustomLink>
-          <CustomLink className="mr-1 md:mr-7" to="/about">
+          <CustomLink className="md:mr-7 text-xs md:text-base" to="/about">
             ABOUT
           </CustomLink>
         </div>
