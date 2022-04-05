@@ -2,10 +2,10 @@
 
 # [Live site link](https://acer-aspire.netlify.app/).
 
-## Just make simple navbar.
+- Just make simple navbar.
 
-## Added picture with some description.
+- Added picture with some description.
 
-## Done review section with self made json data.
+- Done review section with self made json data.
 
-## Done chart with given data, added them to dashboard.
+- Done chart with given data, added them to dashboard.
