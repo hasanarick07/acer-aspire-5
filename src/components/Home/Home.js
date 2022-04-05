@@ -9,6 +9,9 @@ const Home = () => {
   const seeReviews = () => {
     navigate("/reviews");
   };
+  const seeMore = () => {
+    navigate("/about");
+  };
   return (
     <div>
       <div className="md:flex flex-row bg-violet-300">
@@ -26,8 +29,11 @@ const Home = () => {
             more space to work with wherever inspiration strikes. It’s the
             perfect companion to take with you wherever you go!
           </p>
-          <button className="transition shadow-inner text-lg font-medium ease-in-out rounded-full p-2 delay-200 bg-violet-400 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
-            Live Demo
+          <button
+            onClick={seeMore}
+            className="transition shadow-inner text-lg font-medium ease-in-out rounded-full p-2 delay-200 bg-violet-400 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+          >
+            See More
           </button>
         </div>
         <div className="md:w-1/2 md:basis-1/2 sm:order-first mt-2 mr-2	md:order-last">
